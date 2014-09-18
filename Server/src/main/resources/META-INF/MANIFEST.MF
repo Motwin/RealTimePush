@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: com.motwin.realTimePush.connectors;version="3.3.1.RELE
+ ASE";uses:="com.fasterxml.jackson.databind,com.fasterxml.jackson.data
+ bind.node,com.motwin.streamdata.spi"
+Bundle-Version: 3.3.1.RELEASE
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: realTimePush
+Import-Library: com.motwin.sdk;version="[3.3,3.4)",org.springframework
+ .spring;version="[3.1,3.2)"
+Spring-Context: META-INF/spring/*.xml;wait-for-dependencies:=true;
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.motwin.applications.realTimePush
+Import-Package: com.fasterxml.jackson.databind,com.fasterxml.jackson.d
+ atabind.node
+

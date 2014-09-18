@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151CD363181ABA6300E6DD00 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 151CD362181ABA6300E6DD00 /* libstdc++.6.0.9.dylib */; };
+		151CD479181E52EB00E6DD00 /* libMotwinPlatform-iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 151CD464181E52EB00E6DD00 /* libMotwinPlatform-iphoneos.a */; };
+		151CD47A181E52EB00E6DD00 /* libMotwinPlatform-iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 151CD465181E52EB00E6DD00 /* libMotwinPlatform-iphonesimulator.a */; };
+		151CD47B181E52EB00E6DD00 /* NSCalendar+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD46A181E52EB00E6DD00 /* NSCalendar+MTUtils.m */; };
+		151CD47C181E52EB00E6DD00 /* NSDate+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD46C181E52EB00E6DD00 /* NSDate+MTUtils.m */; };
+		151CD47D181E52EB00E6DD00 /* NSDictionary+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD46E181E52EB00E6DD00 /* NSDictionary+MTUtils.m */; };
+		151CD47E181E52EB00E6DD00 /* NSIndexPath+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD470181E52EB00E6DD00 /* NSIndexPath+MTUtils.m */; };
+		151CD47F181E52EB00E6DD00 /* NSLocale+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD472181E52EB00E6DD00 /* NSLocale+MTUtils.m */; };
+		151CD480181E52EB00E6DD00 /* NSNumber+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD474181E52EB00E6DD00 /* NSNumber+MTUtils.m */; };
+		151CD481181E52EB00E6DD00 /* NSTimeZone+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD476181E52EB00E6DD00 /* NSTimeZone+MTUtils.m */; };
+		151CD482181E52EB00E6DD00 /* NSURL+MTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 151CD478181E52EB00E6DD00 /* NSURL+MTUtils.m */; };
+		152F253E171314CC0014B03D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F253D171314CC0014B03D /* CoreData.framework */; };
+		15B9416917F46EA4000BD771 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE7D15BEF77600DB475B /* libstdc++.dylib */; };
+		15B9416C17F46EFA000BD771 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B9416B17F46EFA000BD771 /* libsqlite3.0.dylib */; };
+		15B9416D17F46F53000BD771 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE7B15BEF77000DB475B /* libz.dylib */; };
+		82DAEE1015BEF4FA00DB475B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE0F15BEF4FA00DB475B /* UIKit.framework */; };
+		82DAEE1215BEF4FA00DB475B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE1115BEF4FA00DB475B /* Foundation.framework */; };
+		82DAEE1415BEF4FA00DB475B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE1315BEF4FA00DB475B /* CoreGraphics.framework */; };
+		82DAEE1A15BEF4FA00DB475B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82DAEE1815BEF4FA00DB475B /* InfoPlist.strings */; };
+		82DAEE1C15BEF4FA00DB475B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DAEE1B15BEF4FA00DB475B /* main.m */; };
+		82DAEE2015BEF4FA00DB475B /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DAEE1F15BEF4FA00DB475B /* MTAppDelegate.m */; };
+		82DAEE2315BEF4FA00DB475B /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DAEE2215BEF4FA00DB475B /* MTViewController.m */; };
+		82DAEE2615BEF4FA00DB475B /* MTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DAEE2415BEF4FA00DB475B /* MTViewController_iPhone.xib */; };
+		82DAEE7615BEF76000DB475B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE7515BEF76000DB475B /* CFNetwork.framework */; };
+		82DAEE7815BEF76400DB475B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE7715BEF76400DB475B /* Security.framework */; };
+		82DAEE7A15BEF76B00DB475B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE7915BEF76B00DB475B /* SystemConfiguration.framework */; };
+		82DAEE8715BEFA9D00DB475B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAEE8615BEFA9D00DB475B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151CD362181ABA6300E6DD00 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		151CD447181E52EB00E6DD00 /* MDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDConstants.h; sourceTree = "<group>"; };
+		151CD448181E52EB00E6DD00 /* MDContinuousQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContinuousQuery.h; sourceTree = "<group>"; };
+		151CD449181E52EB00E6DD00 /* MDContinuousQueryArgumentTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContinuousQueryArgumentTransformer.h; sourceTree = "<group>"; };
+		151CD44A181E52EB00E6DD00 /* MDContinuousQueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContinuousQueryController.h; sourceTree = "<group>"; };
+		151CD44B181E52EB00E6DD00 /* MDContinuousQueryControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContinuousQueryControllerDelegate.h; sourceTree = "<group>"; };
+		151CD44C181E52EB00E6DD00 /* MDContinuousQueryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContinuousQueryDelegate.h; sourceTree = "<group>"; };
+		151CD44D181E52EB00E6DD00 /* MDFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDFetchedResultsController.h; sourceTree = "<group>"; };
+		151CD44E181E52EB00E6DD00 /* MDObjectToPredicateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDObjectToPredicateTransformer.h; sourceTree = "<group>"; };
+		151CD44F181E52EB00E6DD00 /* MDQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDQuery.h; sourceTree = "<group>"; };
+		151CD450181E52EB00E6DD00 /* MDStreamData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDStreamData.h; sourceTree = "<group>"; };
+		151CD451181E52EB00E6DD00 /* MDWindowedContinuousQueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWindowedContinuousQueryController.h; sourceTree = "<group>"; };
+		151CD452181E52EB00E6DD00 /* MDWindowedContinuousQueryControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWindowedContinuousQueryControllerDelegate.h; sourceTree = "<group>"; };
+		151CD453181E52EB00E6DD00 /* MNClientChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNClientChannel.h; sourceTree = "<group>"; };
+		151CD454181E52EB00E6DD00 /* MNClientChannelUpdateHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNClientChannelUpdateHandling.h; sourceTree = "<group>"; };
+		151CD455181E52EB00E6DD00 /* MNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNConstants.h; sourceTree = "<group>"; };
+		151CD456181E52EB00E6DD00 /* MNError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNError.h; sourceTree = "<group>"; };
+		151CD457181E52EB00E6DD00 /* MNMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMessage.h; sourceTree = "<group>"; };
+		151CD458181E52EB00E6DD00 /* MNMessageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMessageProcessing.h; sourceTree = "<group>"; };
+		151CD459181E52EB00E6DD00 /* MNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRequest.h; sourceTree = "<group>"; };
+		151CD45A181E52EB00E6DD00 /* MNRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRequestDelegate.h; sourceTree = "<group>"; };
+		151CD45B181E52EB00E6DD00 /* MNRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRequestError.h; sourceTree = "<group>"; };
+		151CD45C181E52EB00E6DD00 /* MNResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNResponse.h; sourceTree = "<group>"; };
+		151CD45D181E52EB00E6DD00 /* MotwinAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotwinAvailability.h; sourceTree = "<group>"; };
+		151CD45E181E52EB00E6DD00 /* MTRemoteNotificationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRemoteNotificationAppDelegate.h; sourceTree = "<group>"; };
+		151CD45F181E52EB00E6DD00 /* MUISafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUISafeViewController.h; sourceTree = "<group>"; };
+		151CD460181E52EB00E6DD00 /* MUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUITableViewController.h; sourceTree = "<group>"; };
+		151CD461181E52EB00E6DD00 /* MUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIViewController.h; sourceTree = "<group>"; };
+		151CD462181E52EB00E6DD00 /* NSObject+MUIBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MUIBindings.h"; sourceTree = "<group>"; };
+		151CD464181E52EB00E6DD00 /* libMotwinPlatform-iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMotwinPlatform-iphoneos.a"; sourceTree = "<group>"; };
+		151CD465181E52EB00E6DD00 /* libMotwinPlatform-iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMotwinPlatform-iphonesimulator.a"; sourceTree = "<group>"; };
+		151CD466181E52EB00E6DD00 /* MotwinPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotwinPlatform.h; sourceTree = "<group>"; };
+		151CD468181E52EB00E6DD00 /* MotwinToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotwinToolbox.h; sourceTree = "<group>"; };
+		151CD469181E52EB00E6DD00 /* NSCalendar+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+MTUtils.h"; sourceTree = "<group>"; };
+		151CD46A181E52EB00E6DD00 /* NSCalendar+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+MTUtils.m"; sourceTree = "<group>"; };
+		151CD46B181E52EB00E6DD00 /* NSDate+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MTUtils.h"; sourceTree = "<group>"; };
+		151CD46C181E52EB00E6DD00 /* NSDate+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MTUtils.m"; sourceTree = "<group>"; };
+		151CD46D181E52EB00E6DD00 /* NSDictionary+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTUtils.h"; sourceTree = "<group>"; };
+		151CD46E181E52EB00E6DD00 /* NSDictionary+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTUtils.m"; sourceTree = "<group>"; };
+		151CD46F181E52EB00E6DD00 /* NSIndexPath+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+MTUtils.h"; sourceTree = "<group>"; };
+		151CD470181E52EB00E6DD00 /* NSIndexPath+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+MTUtils.m"; sourceTree = "<group>"; };
+		151CD471181E52EB00E6DD00 /* NSLocale+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLocale+MTUtils.h"; sourceTree = "<group>"; };
+		151CD472181E52EB00E6DD00 /* NSLocale+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLocale+MTUtils.m"; sourceTree = "<group>"; };
+		151CD473181E52EB00E6DD00 /* NSNumber+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MTUtils.h"; sourceTree = "<group>"; };
+		151CD474181E52EB00E6DD00 /* NSNumber+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MTUtils.m"; sourceTree = "<group>"; };
+		151CD475181E52EB00E6DD00 /* NSTimeZone+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+MTUtils.h"; sourceTree = "<group>"; };
+		151CD476181E52EB00E6DD00 /* NSTimeZone+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+MTUtils.m"; sourceTree = "<group>"; };
+		151CD477181E52EB00E6DD00 /* NSURL+MTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MTUtils.h"; sourceTree = "<group>"; };
+		151CD478181E52EB00E6DD00 /* NSURL+MTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MTUtils.m"; sourceTree = "<group>"; };
+		152F253D171314CC0014B03D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		15B9416B17F46EFA000BD771 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		82DAEE0B15BEF4FA00DB475B /* RealTimePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DAEE0F15BEF4FA00DB475B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82DAEE1115BEF4FA00DB475B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82DAEE1315BEF4FA00DB475B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82DAEE1715BEF4FA00DB475B /* RealTimePush-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealTimePush-Info.plist"; sourceTree = "<group>"; };
+		82DAEE1915BEF4FA00DB475B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82DAEE1B15BEF4FA00DB475B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82DAEE1D15BEF4FA00DB475B /* RealTimePush-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealTimePush-Prefix.pch"; sourceTree = "<group>"; };
+		82DAEE1E15BEF4FA00DB475B /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		82DAEE1F15BEF4FA00DB475B /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		82DAEE2115BEF4FA00DB475B /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
+		82DAEE2215BEF4FA00DB475B /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
+		82DAEE2515BEF4FA00DB475B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MTViewController_iPhone.xib; sourceTree = "<group>"; };
+		82DAEE7515BEF76000DB475B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		82DAEE7715BEF76400DB475B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		82DAEE7915BEF76B00DB475B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82DAEE7B15BEF77000DB475B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		82DAEE7D15BEF77600DB475B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		82DAEE8615BEFA9D00DB475B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DAEE0815BEF4FA00DB475B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151CD47A181E52EB00E6DD00 /* libMotwinPlatform-iphonesimulator.a in Frameworks */,
+				151CD363181ABA6300E6DD00 /* libstdc++.6.0.9.dylib in Frameworks */,
+				15B9416D17F46F53000BD771 /* libz.dylib in Frameworks */,
+				15B9416C17F46EFA000BD771 /* libsqlite3.0.dylib in Frameworks */,
+				15B9416917F46EA4000BD771 /* libstdc++.dylib in Frameworks */,
+				152F253E171314CC0014B03D /* CoreData.framework in Frameworks */,
+				82DAEE7A15BEF76B00DB475B /* SystemConfiguration.framework in Frameworks */,
+				82DAEE7615BEF76000DB475B /* CFNetwork.framework in Frameworks */,
+				151CD479181E52EB00E6DD00 /* libMotwinPlatform-iphoneos.a in Frameworks */,
+				82DAEE7815BEF76400DB475B /* Security.framework in Frameworks */,
+				82DAEE8715BEFA9D00DB475B /* QuartzCore.framework in Frameworks */,
+				82DAEE1015BEF4FA00DB475B /* UIKit.framework in Frameworks */,
+				82DAEE1215BEF4FA00DB475B /* Foundation.framework in Frameworks */,
+				82DAEE1415BEF4FA00DB475B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151CD445181E52EB00E6DD00 /* MotwinPlatform.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				151CD446181E52EB00E6DD00 /* Headers */,
+				151CD463181E52EB00E6DD00 /* Libraries */,
+				151CD466181E52EB00E6DD00 /* MotwinPlatform.h */,
+			);
+			name = MotwinPlatform.sdk;
+			path = ../MotwinPlatform.sdk;
+			sourceTree = "<group>";
+		};
+		151CD446181E52EB00E6DD00 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				151CD447181E52EB00E6DD00 /* MDConstants.h */,
+				151CD448181E52EB00E6DD00 /* MDContinuousQuery.h */,
+				151CD449181E52EB00E6DD00 /* MDContinuousQueryArgumentTransformer.h */,
+				151CD44A181E52EB00E6DD00 /* MDContinuousQueryController.h */,
+				151CD44B181E52EB00E6DD00 /* MDContinuousQueryControllerDelegate.h */,
+				151CD44C181E52EB00E6DD00 /* MDContinuousQueryDelegate.h */,
+				151CD44D181E52EB00E6DD00 /* MDFetchedResultsController.h */,
+				151CD44E181E52EB00E6DD00 /* MDObjectToPredicateTransformer.h */,
+				151CD44F181E52EB00E6DD00 /* MDQuery.h */,
+				151CD450181E52EB00E6DD00 /* MDStreamData.h */,
+				151CD451181E52EB00E6DD00 /* MDWindowedContinuousQueryController.h */,
+				151CD452181E52EB00E6DD00 /* MDWindowedContinuousQueryControllerDelegate.h */,
+				151CD453181E52EB00E6DD00 /* MNClientChannel.h */,
+				151CD454181E52EB00E6DD00 /* MNClientChannelUpdateHandling.h */,
+				151CD455181E52EB00E6DD00 /* MNConstants.h */,
+				151CD456181E52EB00E6DD00 /* MNError.h */,
+				151CD457181E52EB00E6DD00 /* MNMessage.h */,
+				151CD458181E52EB00E6DD00 /* MNMessageProcessing.h */,
+				151CD459181E52EB00E6DD00 /* MNRequest.h */,
+				151CD45A181E52EB00E6DD00 /* MNRequestDelegate.h */,
+				151CD45B181E52EB00E6DD00 /* MNRequestError.h */,
+				151CD45C181E52EB00E6DD00 /* MNResponse.h */,
+				151CD45D181E52EB00E6DD00 /* MotwinAvailability.h */,
+				151CD45E181E52EB00E6DD00 /* MTRemoteNotificationAppDelegate.h */,
+				151CD45F181E52EB00E6DD00 /* MUISafeViewController.h */,
+				151CD460181E52EB00E6DD00 /* MUITableViewController.h */,
+				151CD461181E52EB00E6DD00 /* MUIViewController.h */,
+				151CD462181E52EB00E6DD00 /* NSObject+MUIBindings.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		151CD463181E52EB00E6DD00 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				151CD464181E52EB00E6DD00 /* libMotwinPlatform-iphoneos.a */,
+				151CD465181E52EB00E6DD00 /* libMotwinPlatform-iphonesimulator.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		151CD467181E52EB00E6DD00 /* MotwinToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				151CD468181E52EB00E6DD00 /* MotwinToolbox.h */,
+				151CD469181E52EB00E6DD00 /* NSCalendar+MTUtils.h */,
+				151CD46A181E52EB00E6DD00 /* NSCalendar+MTUtils.m */,
+				151CD46B181E52EB00E6DD00 /* NSDate+MTUtils.h */,
+				151CD46C181E52EB00E6DD00 /* NSDate+MTUtils.m */,
+				151CD46D181E52EB00E6DD00 /* NSDictionary+MTUtils.h */,
+				151CD46E181E52EB00E6DD00 /* NSDictionary+MTUtils.m */,
+				151CD46F181E52EB00E6DD00 /* NSIndexPath+MTUtils.h */,
+				151CD470181E52EB00E6DD00 /* NSIndexPath+MTUtils.m */,
+				151CD471181E52EB00E6DD00 /* NSLocale+MTUtils.h */,
+				151CD472181E52EB00E6DD00 /* NSLocale+MTUtils.m */,
+				151CD473181E52EB00E6DD00 /* NSNumber+MTUtils.h */,
+				151CD474181E52EB00E6DD00 /* NSNumber+MTUtils.m */,
+				151CD475181E52EB00E6DD00 /* NSTimeZone+MTUtils.h */,
+				151CD476181E52EB00E6DD00 /* NSTimeZone+MTUtils.m */,
+				151CD477181E52EB00E6DD00 /* NSURL+MTUtils.h */,
+				151CD478181E52EB00E6DD00 /* NSURL+MTUtils.m */,
+			);
+			name = MotwinToolbox;
+			path = ../MotwinToolbox;
+			sourceTree = "<group>";
+		};
+		82DAEE0015BEF4FA00DB475B = {
+			isa = PBXGroup;
+			children = (
+				151CD445181E52EB00E6DD00 /* MotwinPlatform.sdk */,
+				151CD467181E52EB00E6DD00 /* MotwinToolbox */,
+				82DAEE1515BEF4FA00DB475B /* RealTimePush */,
+				82DAEE0E15BEF4FA00DB475B /* Frameworks */,
+				82DAEE0C15BEF4FA00DB475B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82DAEE0C15BEF4FA00DB475B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DAEE0B15BEF4FA00DB475B /* RealTimePush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DAEE0E15BEF4FA00DB475B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151CD362181ABA6300E6DD00 /* libstdc++.6.0.9.dylib */,
+				15B9416B17F46EFA000BD771 /* libsqlite3.0.dylib */,
+				82DAEE7D15BEF77600DB475B /* libstdc++.dylib */,
+				82DAEE7B15BEF77000DB475B /* libz.dylib */,
+				152F253D171314CC0014B03D /* CoreData.framework */,
+				82DAEE7915BEF76B00DB475B /* SystemConfiguration.framework */,
+				82DAEE7715BEF76400DB475B /* Security.framework */,
+				82DAEE7515BEF76000DB475B /* CFNetwork.framework */,
+				82DAEE8615BEFA9D00DB475B /* QuartzCore.framework */,
+				82DAEE0F15BEF4FA00DB475B /* UIKit.framework */,
+				82DAEE1115BEF4FA00DB475B /* Foundation.framework */,
+				82DAEE1315BEF4FA00DB475B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DAEE1515BEF4FA00DB475B /* RealTimePush */ = {
+			isa = PBXGroup;
+			children = (
+				82DAEE1E15BEF4FA00DB475B /* MTAppDelegate.h */,
+				82DAEE1F15BEF4FA00DB475B /* MTAppDelegate.m */,
+				82DAEE2115BEF4FA00DB475B /* MTViewController.h */,
+				82DAEE2215BEF4FA00DB475B /* MTViewController.m */,
+				82DAEE2415BEF4FA00DB475B /* MTViewController_iPhone.xib */,
+				82DAEE1615BEF4FA00DB475B /* Supporting Files */,
+			);
+			path = RealTimePush;
+			sourceTree = "<group>";
+		};
+		82DAEE1615BEF4FA00DB475B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82DAEE1715BEF4FA00DB475B /* RealTimePush-Info.plist */,
+				82DAEE1815BEF4FA00DB475B /* InfoPlist.strings */,
+				82DAEE1B15BEF4FA00DB475B /* main.m */,
+				82DAEE1D15BEF4FA00DB475B /* RealTimePush-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DAEE0A15BEF4FA00DB475B /* RealTimePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DAEE2C15BEF4FA00DB475B /* Build configuration list for PBXNativeTarget "RealTimePush" */;
+			buildPhases = (
+				82DAEE0715BEF4FA00DB475B /* Sources */,
+				82DAEE0815BEF4FA00DB475B /* Frameworks */,
+				82DAEE0915BEF4FA00DB475B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimePush;
+			productName = RealTimePush;
+			productReference = 82DAEE0B15BEF4FA00DB475B /* RealTimePush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DAEE0215BEF4FA00DB475B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Motwin;
+			};
+			buildConfigurationList = 82DAEE0515BEF4FA00DB475B /* Build configuration list for PBXProject "RealTimePush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DAEE0015BEF4FA00DB475B;
+			productRefGroup = 82DAEE0C15BEF4FA00DB475B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DAEE0A15BEF4FA00DB475B /* RealTimePush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DAEE0915BEF4FA00DB475B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DAEE1A15BEF4FA00DB475B /* InfoPlist.strings in Resources */,
+				82DAEE2615BEF4FA00DB475B /* MTViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DAEE0715BEF4FA00DB475B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151CD482181E52EB00E6DD00 /* NSURL+MTUtils.m in Sources */,
+				82DAEE1C15BEF4FA00DB475B /* main.m in Sources */,
+				151CD47C181E52EB00E6DD00 /* NSDate+MTUtils.m in Sources */,
+				151CD481181E52EB00E6DD00 /* NSTimeZone+MTUtils.m in Sources */,
+				82DAEE2015BEF4FA00DB475B /* MTAppDelegate.m in Sources */,
+				151CD47F181E52EB00E6DD00 /* NSLocale+MTUtils.m in Sources */,
+				82DAEE2315BEF4FA00DB475B /* MTViewController.m in Sources */,
+				151CD480181E52EB00E6DD00 /* NSNumber+MTUtils.m in Sources */,
+				151CD47E181E52EB00E6DD00 /* NSIndexPath+MTUtils.m in Sources */,
+				151CD47B181E52EB00E6DD00 /* NSCalendar+MTUtils.m in Sources */,
+				151CD47D181E52EB00E6DD00 /* NSDictionary+MTUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82DAEE1815BEF4FA00DB475B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DAEE1915BEF4FA00DB475B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82DAEE2415BEF4FA00DB475B /* MTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DAEE2515BEF4FA00DB475B /* en */,
+			);
+			name = MTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DAEE2A15BEF4FA00DB475B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		82DAEE2B15BEF4FA00DB475B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		82DAEE2D15BEF4FA00DB475B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimePush/RealTimePush-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../MotwinPlatform.sdk/**";
+				INFOPLIST_FILE = "RealTimePush/RealTimePush-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\\\"$(SRCROOT)/../MotwinPlatform.sdk/**",
+					"/Users/product/Documents/workspace/iPhoneSDK-trunk/SampleApps/MotwinPlatform.sdk/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82DAEE2E15BEF4FA00DB475B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimePush/RealTimePush-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../MotwinPlatform.sdk/**";
+				INFOPLIST_FILE = "RealTimePush/RealTimePush-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\\\"$(SRCROOT)/../MotwinPlatform.sdk/**",
+					"/Users/product/Documents/workspace/iPhoneSDK-trunk/SampleApps/MotwinPlatform.sdk/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DAEE0515BEF4FA00DB475B /* Build configuration list for PBXProject "RealTimePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DAEE2A15BEF4FA00DB475B /* Debug */,
+				82DAEE2B15BEF4FA00DB475B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DAEE2C15BEF4FA00DB475B /* Build configuration list for PBXNativeTarget "RealTimePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DAEE2D15BEF4FA00DB475B /* Debug */,
+				82DAEE2E15BEF4FA00DB475B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DAEE0215BEF4FA00DB475B /* Project object */;
+}

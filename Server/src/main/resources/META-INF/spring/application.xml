@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:channel="http://central.motwin.net/schema/beans/application/3.3.0"
+	xmlns:message="http://central.motwin.net/schema/beans/messaging/3.3.0"
+	xmlns:request="http://central.motwin.net/schema/beans/requesting/3.3.0"
+	xmlns:vdb="http://central.motwin.net/schema/virtualdb"
+	xsi:schemaLocation="http://central.motwin.net/schema/beans/requesting/3.3.0 http://central.motwin.net/schema/requesting-3.3.0.xsd
+    					http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+    					http://central.motwin.net/schema/beans/application/3.3.0 http://central.motwin.net/schema/application-3.3.0.xsd
+    					http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    					http://central.motwin.net/schema/beans/messaging/3.3.0 http://central.motwin.net/schema/messaging-3.3.0.xsd
+    					http://central.motwin.net/schema/virtualdb http://central.motwin.net/schema/virtualdb.xsd">
+
+
+	<bean id="realTimePushSourceAdapter" class="com.motwin.realTimePush.connectors.RealTimePushSource" />
+	
+	<vdb:source-poller id="realTimePushSource" 
+		fixed-delay="500" time-unit="MILLISECONDS" pollable-source-ref="realTimePushSourceAdapter" />
+
+</beans>

@@ -1,0 +1,24 @@
+# Put this file in the emulator or on real device in data folder to enable Motwin SDK logging.
+# NB : a restart is required after copying the file.
+log.tag.MotwinSDK=DEBUG
+log.tag.StreamDataThread=DEBUG
+log.tag.Setter=DEBUG
+log.tag.ChannelFacade=DEBUG
+log.tag.MotwinActivity=DEBUG
+log.tag.ClientChannel=DEBUG
+log.tag.InternalResolvers=DEBUG
+log.tag.MttConnectionMonitor=DEBUG
+log.tag.MttDecoder=DEBUG
+log.tag.MttEncoder=DEBUG
+log.tag.MttListenThread=DEBUG
+log.tag.MttMobile=DEBUG
+log.tag.RequestManager=DEBUG
+log.tag.MttMessageInputStream=DEBUG
+log.tag.MttPrimitiveInputStream=DEBUG
+log.tag.MttPrimitiveOutputStream=DEBUG
+log.tag.ContentDb=DEBUG
+log.tag.Database=DEBUG
+log.tag.Model=DEBUG
+log.tag.EntityOperation=DEBUG
+log.tag.StreamDataMsgProcessor=DEBUG
+log.tag.StreamDataService=DEBUG
